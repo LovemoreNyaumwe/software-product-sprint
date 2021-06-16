@@ -1,9 +1,58 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#greeting-container {
-  margin-top: 20px;
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("images/lovemore-9.jpg"); }
+.img2 { background-image: url("images/lovemore-8.jpg"); }
+.img3 { background-image: url("images/lovemore-2.jpg"); }
+.img4 { background-image: url("images/lovemore-4.jpg"); }
+.img5 { background-image: url("images/lovemore-5.jpg"); }
+.img6 { background-image: url("images/lovemore-7.jpg"); }
+.img7 { background-image: url("images/lovemore-6.jpg"); }
+.img8 { background-image: url("images/lovemore-3.jpg"); }
+.img9 { background-image: url("images/lovemore-1.jpg"); }
+
+/*body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {
+    vertical-align: middle;
+    height: 100%;
+}*/
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  opacity: 0.65;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
